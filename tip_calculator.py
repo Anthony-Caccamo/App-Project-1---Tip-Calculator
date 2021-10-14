@@ -22,7 +22,7 @@ print('RESULTS:') # I added this to make the python output easier to read.
 
 total_bill = ((food_costs * (tip_percent/100)) + (food_costs * .10)) + food_costs #This calculates the total tip of the bill, including tip and tax. The tip percentage is entered by the user. I divide by 100 to make the input a percent . The tax is set at 10% or .10. This variable is used in line 27.
 
-Amount_to_pay = total_bill / amount_of_people #Takes the total bill (after tax and tip) and divides it by number of people. This variable is used in line 26.
+Amount_to_pay = total_bill / amount_of_people #Takes the total bill (after tax and tip) and divides it by number of people. This variable is used in line 28.
 
 print(f'Total bill: ${total_bill}')
 print(f'Each person should pay ${round(Amount_to_pay,2)}')
