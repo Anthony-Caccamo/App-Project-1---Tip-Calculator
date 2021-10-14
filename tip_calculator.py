@@ -6,7 +6,7 @@ print('This is Tippy. I am here to calculate how much you should pay. Please fol
 
 print()
 
-#INPUT: The blocks of code from line 12 to 16 are inputs and require the user to enter information, which the app will depend on. This will use the 'input' function. 
+#INPUT: The blocks of code from line 12 to 16 are inputs and require the user to enter information, which the app will depend on. This will use the 'input' function.
 #Additionally, 'float' is used to convert the input to a float, which will avoid TypeErrors. (which are due to adding/subtracing/multiplying/dividing different datatypes.)
 
 food_costs = float(input('The total cost of the food is: ' ))
