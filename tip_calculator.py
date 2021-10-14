@@ -27,4 +27,4 @@ Amount_to_pay = total_bill / amount_of_people #Takes the total bill (after tax a
 print(f'Total bill: ${total_bill}')
 print(f'Each person should pay ${round(Amount_to_pay,2)}')
 print()
-print('Thank you for using Tippy!') #I added this to add flair to
+print('Thank you for using Tippy!') #I added this to add flair
